@@ -2,7 +2,7 @@ name: deploy security rules
 on:
     push:
         branches:
-            - main
+            - master
 
 jobs:
     deploy:

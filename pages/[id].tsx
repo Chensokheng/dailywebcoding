@@ -65,7 +65,6 @@ export async function getStaticPaths() {
 
 export async function getStaticProps(context: any) {
     const post = await PostService.getPost(context.params.id);
-    console.log(post);
     if (!post || !Object.keys(post).length) {
         return {
             redirect: {
