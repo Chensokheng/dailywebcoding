@@ -15,14 +15,14 @@ Thank you for your interest in Daily web coding!
 First, fork the repo, then do this:
 
 ```sh
-git clone <your-fork>
-cd ./dailywebcoding
+git clone https://github.com/<your-fork>/dailywebcoding.git
+cd dailywebcoding/
 
-git checkout dev
-# if you are making *any* code changes, make sure to checkout the dev branch
+git checkout -b dev
+# if you are making *any* code changes, make sure to checkout to a new dev branch
 
 cp .env.local.sample .env.local
-# replace it your config
+# replace it with your config
 ```
 
 next 👉
