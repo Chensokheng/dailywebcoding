@@ -9,6 +9,7 @@ Thank you for your interest in Daily web coding!
 -   Node >= 16 https://nodejs.org/en/
 -   Git >= 2.34.1 https://git-scm.com/
 -   firebase-cli >=9.10.0 https://www.npmjs.com/package/firebase-tools
+-   Java >= 11 (for running the emulator) https://firebase.google.com/docs/emulator-suite/install_and_configure#install_the_local_emulator_suite
 
 ## Setup steps
 
@@ -18,26 +19,29 @@ First, fork the repo, then do this:
 git clone https://github.com/<your-fork>/dailywebcoding.git
 cd dailywebcoding/
 
-git checkout -b dev
-# if you are making *any* code changes, make sure to checkout to a new dev branch
+# if you are making *any* code changes, make sure to checkout the dev branch
+git checkout dev
 
+# replace it your config
 cp .env.local.sample .env.local
-# replace it with your config
+
 ```
 
-next 👉
+next 👉 change to your projectId at [.firebaserc](.firebaserc)
 
 change to your projectId at [.firebaserc](.firebaserc)
 
 ```sh
-yarn install
 # install the dependencies
+yarn install
 
-yarn run dev
 # run project in development mode
+yarn run dev
 
-yarn run firebase-import
 # start firebase emulator for the development process
+yarn run firebase-import
+
+# ------------------------------------------------
 
 # or to start next.js and firebase emulator at the same time
 yarn run dev-local
