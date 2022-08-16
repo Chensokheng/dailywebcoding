@@ -7,6 +7,7 @@
         "firebase-import": "firebase emulators:start --import=./seed",
         "dev": "next dev",
         "build": "next build",
+        "dev-local": "yarn run dev & yarn run firebase-import",
         "start": "next start",
         "lint": "next lint --fix",
         "prepare": "husky install"

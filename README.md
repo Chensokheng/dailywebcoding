@@ -17,15 +17,7 @@ a directly of wonderful thing
 -   Git >= 2.34.1 https://git-scm.com/
 -   firebase-cli >=9.10.0 https://www.npmjs.com/package/firebase-tools
 
-## Run project for development
-
-```
-yarn install
-yarn run dev
-yarn run firebase-import
-```
-
-## Contributing
+## Contributing and run project
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md)
 

@@ -14,7 +14,7 @@ export default function AppLayout({ children }: Props) {
                 <Link href="/">
                     <div className="group cursor-pointer">
                         <h1 className="text-3xl font-bold cursor-pointer">
-                            My blog
+                            Daily web coding
                         </h1>
                         <div className="group-hover:h-px mt-2 bg-white group-hover:w-full w-0 transition-all"></div>
                     </div>
