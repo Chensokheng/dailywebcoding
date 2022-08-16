@@ -16,8 +16,8 @@ Thank you for your interest in Daily web coding!
 First, fork the repo, then do this:
 
 ```sh
-git clone <your-fork>
-cd ./dailywebcoding
+git clone https://github.com/<your-fork>/dailywebcoding.git
+cd dailywebcoding/
 
 # if you are making *any* code changes, make sure to checkout the dev branch
 git checkout dev
@@ -40,6 +40,7 @@ yarn run dev
 yarn run firebase-import
 
 # ------------------------------------------------
+
 # or to start next.js and firebase emulator at the same time
 yarn run dev-local
 ```
