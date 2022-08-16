@@ -35,7 +35,7 @@ export default function Footer() {
         <div className="w-full bg-primary border-t border-gray-500 p-5 xl:p-0 ">
             <div className="max-w-7xl mx-auto pt-10 sm:pt-0  grid grid-cols-2 gap-10 sm:grid-cols-3 sm:h-99 ">
                 <div className="sm:py-28">
-                    <h1 className="text-3xl font-bold text-gray-200">{`My blog`}</h1>
+                    <h1 className="text-3xl font-bold text-gray-200">{`Daily web coding`}</h1>
                     <p className="mt-5 text-gray-400 text-xl">
                         A directory of wonderful things
                     </p>
