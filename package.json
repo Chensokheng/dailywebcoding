@@ -8,10 +8,17 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint --fix"
+        "lint": "next lint --fix",
+        "prepare": "husky install"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "yarn lint"
+        }
     },
     "dependencies": {
         "firebase": "^9.9.0",
+        "husky": "^8.0.1",
         "next": "12.2.2",
         "next-themes": "^0.2.0",
         "react": "18.2.0",
