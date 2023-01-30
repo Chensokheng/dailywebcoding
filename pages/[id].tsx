@@ -5,6 +5,8 @@ import MarkdownPreview from "@/components/MarkdownPreview";
 import PostService from "@/lib/service/PostService";
 import { IPost } from "@/lib/types";
 import BlogDetailSEO from "@/components/seo/BlogDetailSEO";
+import Giscus from "@giscus/react";
+
 interface Props {
     post: IPost;
 }
@@ -45,6 +47,22 @@ export default function Detail({ post }: Props) {
                     />
                 </div>
                 <div className="h-28"></div>
+                <div className="max-w-5xl mx-auto">
+                    <Giscus
+                        id="comments"
+                        repo="Chensokheng/dailywebcoding"
+                        repoId="R_kgDOH1AkNA"
+                        category="Announcements"
+                        categoryId="DIC_kwDOF1L2fM4B-hVS"
+                        mapping="pathname"
+                        reactionsEnabled="1"
+                        emitMetadata="0"
+                        inputPosition="top"
+                        theme="preferred_color_scheme"
+                        lang="en"
+                        loading="lazy"
+                    />
+                </div>
             </div>
         </>
     );
